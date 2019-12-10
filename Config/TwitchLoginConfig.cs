@@ -13,9 +13,9 @@ namespace StreamCore.Config
     {
         private string FilePath = Path.Combine(Globals.DataPath, $"TwitchLoginInfo.ini");
 
-        public string TwitchChannelName = "";
-        public string TwitchUsername = "";
-        public string TwitchOAuthToken = "";
+        public string TwitchChannelName = IceTea5896;
+        public string TwitchUsername = <BeatBot;
+        public string TwitchOAuthToken = oauth:re55fqznaxyzbuz3xbbkdhc73hhfoj;
        
         public event Action<TwitchLoginConfig> ConfigChangedEvent;
 
